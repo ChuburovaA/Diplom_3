@@ -13,4 +13,3 @@ class OrderPageLocators:
     # Детали заказа
     ORDER_STRUCTURE_TITLE = By.XPATH, '//p[text()="Cостав"]'
     ORDER_NUMBER = By.XPATH, '//p[text()="{}"]'
-
