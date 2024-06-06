@@ -39,8 +39,7 @@ class TestRecoverPasswordPage:
         password_recover_page.open_page(Urls.forgot_password_page)
         password_recover_page.set_email_for_recover_password(create_and_delete_user[0]['email'])
         password_recover_page.click_recover_button()
-
         password_recover_page.find_element_save_button()
         password_recover_page.click_on_show_password_icon()
 
-        assert password_recover_page.find_element_input_password_active
+        assert password_recover_page.find_element_input_password_active()
