@@ -1,0 +1,10 @@
+class Urls:
+    BASE_PAGE = 'https://stellarburgers.nomoreparties.site/'
+    login_page = BASE_PAGE + 'login'
+    register_user = BASE_PAGE + 'api/auth/register'
+    forgot_password_page = BASE_PAGE + 'forgot-password'
+    rest_password_page = BASE_PAGE + 'reset-password'
+    orders_history = BASE_PAGE + 'account/order-history'
+    order_feed = BASE_PAGE + 'feed'
+    delete_user = BASE_PAGE + 'api/auth/user'
+    profile_user_page = BASE_PAGE + 'account/profile'
